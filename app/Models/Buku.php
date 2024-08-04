@@ -15,8 +15,10 @@ class Buku extends Model
         'no_buku',
         'judul',
         'edisi',
+        'id_rak',
         'tahun',
         'penerbit',
+        'id_penulis',
     ];
 
     protected $primaryKey = 'no_buku';

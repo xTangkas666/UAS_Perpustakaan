@@ -16,7 +16,7 @@ class Anggota extends Model
         'nama',
         'no_hp',
         'alamat',
-        'email',
+        'id_user'
     ];
 
     protected $primaryKey = 'id_anggota';

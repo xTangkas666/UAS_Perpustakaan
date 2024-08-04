@@ -12,7 +12,7 @@ return new class extends Migration
     public function up(): void
     {
         Schema::create('rak', function (Blueprint $table) {
-            $table->unsignedBigInteger('id_rak')->unique();
+            $table->unsignedBigInteger('id_rak')->autoIncrement()->unique();
             $table->string('lokasi');
             $table->timestamps();
         });

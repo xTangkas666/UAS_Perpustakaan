@@ -16,7 +16,7 @@ class Penulis extends Model
         'nama_penulis',
         'tempat_lahir',
         'tgl_lahir',
-        'email',
+        'id_user',
     ];
 
     protected $primaryKey = 'id_penulis';
